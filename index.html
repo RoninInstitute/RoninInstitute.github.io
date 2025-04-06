@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RIIS 2.0 Coming Soon</title>
+  <title>RIIS 2.0</title>
   <style>
     body {
       margin: 0;
@@ -17,6 +17,33 @@
       align-items: center;
       height: 100vh;
       text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    body::before {
+      content: "";
+      background: url('https://upload.wikimedia.org/wikipedia/commons/1/1e/AsarakaenPhoenix.png') no-repeat center center;
+      background-size: contain;
+      opacity: 0.04;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .announcement {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: 1rem;
+      position: relative;
+      z-index: 1;
     }
 
     h1 {
@@ -30,27 +57,22 @@
       color: #c0c0c0;
     }
 
-    .announcement {
-      background-color: rgba(255, 255, 255, 0.05);
-      padding: 1.5rem 2rem;
-      border-radius: 12px;
-      max-width: 600px;
-      margin: 1rem;
-    }
-
     footer {
       position: absolute;
       bottom: 1rem;
       font-size: 0.9rem;
       color: #6c757d;
+      z-index: 1;
     }
   </style>
-</head>
+</head>  
+
+
 <body>
   <div class="announcement">
-    <h1>Coming soon:<br/>Ronin is RIIS-ing</h1>
-    <p>We're hard at work building a new chapter of Ronin.<br/>
-      A completely new incorporated organization, RIIS (Ronin Institute for Independent Scholarship) 2.0, will be launching soon.</p>
+    <h1>Ronin is RIIS-ing</h1>
+    <p>We're hard at work building a new chapter.</p>
+    <p>A completely new membership-based organization, <strong>RIIS 2.0</strong> (Ronin Institute for Independent Scholarship), led by Research Scholars from the original organization, will be launching soon.</p>
     <p>Watch this space for updates and announcements.</p>
   </div>
 
