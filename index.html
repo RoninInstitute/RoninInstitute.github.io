@@ -36,7 +36,7 @@
       pointer-events: none;
     }
 
-    .announcement {
+    main.announcement {
       background-color: rgba(255, 255, 255, 0.05);
       padding: 1.5rem 2rem;
       border-radius: 12px;
@@ -44,37 +44,12 @@
       margin: 1rem;
       position: relative;
       z-index: 1;
+      animation: fadeInUp 1.2s ease-out;
     }
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-      color: #ffffff;
-    }
+    @keyframes fadeInUp {
+      from {
 
-    p {
-      font-size: 1.25rem;
-      color: #c0c0c0;
-    }
-
-    footer {
-      position: absolute;
-      bottom: 1rem;
-      font-size: 0.9rem;
-      color: #6c757d;
-      z-index: 1;
-    }
-  </style>
-</head>  
-
-
-<body>
-  <div class="announcement">
-    <h1>Ronin is RIIS-ing</h1>
-    <p>We're hard at work building a new chapter.</p>
-    <p>A completely new membership-based organization, <strong>RIIS 2.0</strong> (Ronin Institute for Independent Scholarship), led by Research Scholars from the original organization, will be launching soon.</p>
-    <p>Watch this space for updates and announcements.</p>
-  </div>
 
   <footer>&copy; 2025 RIIS 2.0</footer>
 </body>
