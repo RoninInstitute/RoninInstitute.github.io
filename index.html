@@ -2,38 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ronininstitute.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RIIS 2.0</title>
   <style>
     body {
-      background-color: #f8f8f8;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #0d1b2a, #1b263b);
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #e0e1dd;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
-      padding: 100px 20px;
-      color: #333;
+      position: relative;
+      overflow: hidden;
     }
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
+
+    body::before {
+      content: "";
+      background: url('https://upload.wikimedia.org/wikipedia/commons/1/1e/AsarakaenPhoenix.png') no-repeat center center;
+      background-size: contain;
+      opacity: 0.04;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
     }
-    p {
-      font-size: 18px;
-      color: #666;
-    }
-    .box {
+
+    .announcement {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
       max-width: 600px;
-      margin: 0 auto;
-      background: #fff;
-      border: 1px solid #ddd;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin: 1rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.25rem;
+      color: #c0c0c0;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.9rem;
+      color: #6c757d;
+      z-index: 1;
     }
   </style>
-</head>
+</head>  
+
+
 <body>
-  <div class="box">
-    <h1>ronininstitute.org</h1>
+  <div class="announcement">
+    <h1>We're RIIS-ing</h1>
+    <p>We're hard at work building a new chapter.</p>
+    <p>A completely new membership-based organization for independent scholars, <strong>RIIS 2.0</strong> (Ronin Institute for Independent Scholarship 2.0) will be launching soon.</p>
+    <p>Watch this space for updates and announcements.</p>
   </div>
+
+  <footer>
+    <p style="max-width: 600px; margin: 1rem auto; font-size: 0.85rem; color: #a0a0a0; text-align: center;">
+      RIIS 2.0 does not currently collect personal data, use cookies, or track visitors on this website.
+    </p>
+    <p style="font-size: 0.75rem; color: #6c757d;">&copy; 2025 RIIS 2.0</p>
+  </footer>
 </body>
 </html>
