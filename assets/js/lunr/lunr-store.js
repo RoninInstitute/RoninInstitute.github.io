@@ -1,0 +1,19 @@
+var store = [,{
+    "title": "Events",
+    "excerpt":"        By joining a RIIS 2.0 Public Events, you agree to the RIIS 2.0 Code of Conduct    ","url": "https://ronininstitute.org/events/"
+  },{
+    "title": "Frequently Asked Questions",
+    "excerpt":"This FAQ contains answers to some common questions. It is a simplified guide. In case of any conflict, the RIIS 2.0 Bylaws and adopted policies govern. About us What is RIIS 2.0? The Ronin Institute for Independent Scholarship 2.0 (RIIS 2.0) is a California nonprofit public benefit corporation organized under IRS...","url": "https://ronininstitute.org/faq/"
+  },{
+    "title": "RIIS 2.0 Fellow Application Form",
+    "excerpt":"               Loading…             ","url": "https://ronininstitute.org/fellow-application-form/"
+  },{
+    "title": "Ronin Institute for Independent Scholarship 2.0",
+    "excerpt":"At RIIS 2 0, we believe that knowledge flourishes when barriers fall. Our community brings together scholars from across disciplines — scientists, artists, writers, and innovators—who share a commitment to truth, empathy, and belonging. Sign-up to our news updates to follow our progress as we co-create new pathways for scholarly...","url": "https://ronininstitute.org/"
+  },{
+    "title": "Fellows",
+    "excerpt":"Fellows Sort order: random alphabetical Filter by keyword 🗙 Clear 👤 Suliman Abdelaty Adaptive Pedagogy and Language Assessment in One-to-One ESL Contexts More... Keywords: applied linguistics, Education, anguage assessment, one-to-one tutoring / adaptive pedagogy, second language acquisition, ai in education, Author, IELT, OET, PTE Tutor, Academic Researcher 👤 Mohammad Alanzi...","url": "https://ronininstitute.org/scholars/"
+  },{
+    "title": "Updates",
+    "excerpt":"        ","url": "https://ronininstitute.org/updates/"
+  }]
